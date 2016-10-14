@@ -3,8 +3,8 @@ var issuesHTML;
 $(document).ready(function() {
 
 
-
-    var user = window.location.href.split("http://")[1].split(".")[0];
+    //此处需要注意的是你的github pages 是否启用了https，大约在2016年7月份左右的时候，github强制启用了https,再此之前建立的有部分的github pages 可能没有启用https
+    var user = window.location.href.split("https://")[1].split(".")[0];
     //user = 'yanghanqing';
     blogListURL = 'https://api.github.com/repos/' + user + '/' + user + '.github.io/contents/blog';
     issuesList = 'https://api.github.com/repos/' + user + '/' + user + '.github.io/issues';
