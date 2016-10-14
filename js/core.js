@@ -8,7 +8,7 @@ $(document).ready(function() {
     //user = 'yanghanqing';
     blogListURL = 'https://api.github.com/repos/' + user + '/' + user + '.github.io/contents/blog';
     issuesList = 'https://api.github.com/repos/' + user + '/' + user + '.github.io/issues';
-    issuesHTML = 'https://github.com/' + user + '/' + user + '.github.io/issues'
+    issuesHTML = 'https://github.com/' + user + '/' + user + '.github.io/issues';
     readmeURL = 'https://raw.githubusercontent.com/' + user + '/' + user + '.github.io/master/About Me.md';
 
 
@@ -25,7 +25,7 @@ $(document).ready(function() {
             var blogURL = json[i].download_url; //Blog Raw Url
             // add blog list elements
             var new_li = $("<li></li>");
-            var new_a = $("<a></a>")
+            var new_a = $("<a></a>");
 
             var type = "markdown";
             // delete '.md'
@@ -75,7 +75,7 @@ $(document).ready(function() {
                 taskList: true,
                 tex: true, // 默认不解析
                 flowChart: true, // 默认不解析
-                sequenceDiagram: true, // 默认不解析
+                sequenceDiagram: true // 默认不解析
             });
 
 
@@ -86,7 +86,7 @@ $(document).ready(function() {
 
 
 
-})
+});
 
 
 
@@ -119,7 +119,7 @@ function setBlogTxt(obj) {
                 taskList: true,
                 tex: true, // 默认不解析
                 flowChart: true, // 默认不解析
-                sequenceDiagram: true, // 默认不解析
+                sequenceDiagram: true // 默认不解析
             });
 
         } else {
