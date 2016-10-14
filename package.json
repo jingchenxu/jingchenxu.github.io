@@ -1,0 +1,28 @@
+{
+  "name": "jingchenxu.github.io",
+  "version": "1.0.0",
+  "description": "personal_blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-blog"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jingchenxu/jingchenxu.github.io.git"
+  },
+  "keywords": [
+    "jingchenxu",
+    "blog"
+  ],
+  "author": "jingchenxu2015@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jingchenxu/jingchenxu.github.io/issues"
+  },
+  "homepage": "https://github.com/jingchenxu/jingchenxu.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.1",
+    "font-awesome": "^4.1.0",
+    "jquery": "^3.1.1"
+  }
+}
