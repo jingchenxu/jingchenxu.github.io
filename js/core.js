@@ -6,7 +6,7 @@ $(document).ready(function() {
     //此处需要注意的是你的github pages 是否启用了https，大约在2016年7月份左右的时候，github强制启用了https,再此之前建立的有部分的github pages 可能没有启用https
     var user = window.location.href.split("https://")[1].split(".")[0];
     //user = 'jignchenxu';你可以再此定制自己的名字
-    blogListURL = 'https://api.github.com/repos/' + user + '/' + user + '.github.io/contents/blog';
+    blogListURL = 'https://api.github.com/repos/' + user + '/' + user + '.github.io/contents/blog/code';
     issuesList = 'https://api.github.com/repos/' + user + '/' + user + '.github.io/issues';
     issuesHTML = 'https://github.com/' + user + '/' + user + '.github.io/issues';
     readmeURL = 'https://raw.githubusercontent.com/' + user + '/' + user + '.github.io/master/About Me.md';
